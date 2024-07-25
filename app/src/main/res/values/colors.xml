@@ -10,7 +10,6 @@
 
 
     <color name="first">#449df1</color>
-    <color name="second">
-        #3c35c3</color>
+    <color name="second">#3c35c3</color>
     <color name="third">#FF6565</color>
 </resources>
