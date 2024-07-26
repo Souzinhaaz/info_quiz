@@ -6,5 +6,6 @@
         <item>@font/nunito_sans_black</item>
         <item>@font/nunito_sans_extralight</item>
         <item>@font/open_sans_light</item>
+        <item>@font/roboto_medium</item>
     </array>
 </resources>

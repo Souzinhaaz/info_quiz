@@ -9,7 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="first">#449df1</color>
-    <color name="second">#3c35c3</color>
+    <color name="first">#E0EAFC</color>
+    <color name="second">#CFDEF3</color>
     <color name="third">#FF6565</color>
+    <color name="fourth">#FF017F00</color>
+    <color name="fifth">#02C500</color>
+    <color name="sixth">#F5F5F5</color>
 </resources>

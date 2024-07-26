@@ -12,12 +12,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/nunito_sans_black"
+        android:fontFamily="@font/roboto_medium"
         android:text="INFO QUIZ"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="60sp"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="232dp" />
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="230dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,9 +29,9 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="311dp"
-        android:layout_height="378dp"
+        android:layout_width="212dp"
+        android:layout_height="290dp"
         app:srcCompat="@drawable/lightbulb"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="300dp" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="334dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
