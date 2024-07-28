@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".QuizFragment">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,11 +15,11 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_margin="@dimen/_16sdp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_16sdp">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="INFO QUIZ"
@@ -39,6 +39,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <TextView
+                    android:id="@+id/qNo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1"
@@ -48,6 +49,7 @@
                 />
 
                 <TextView
+                    android:id="@+id/totalQ"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="/20"
@@ -61,69 +63,82 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
+            android:id="@+id/questionCont"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_16sdp"
             android:layout_margin="@dimen/_16sdp"
+            android:background="@color/fifth"
+            android:padding="@dimen/_16sdp"
             android:text="O que significa a sigla CPU em um computador?"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
-            android:textStyle="bold"
-            android:background="@color/fifth"/>
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/option1Cont"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_16sdp"
             android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginEnd="@dimen/_16sdp"
             android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/sub_item_bg"
+            android:padding="@dimen/_16sdp"
             android:text="A) Central Processing Unit"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp"
-            android:textStyle="normal"
-            android:background="@drawable/sub_item_bg"/>
+            android:textStyle="normal" />
 
         <TextView
+            android:id="@+id/option2Cont"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_16sdp"
             android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginEnd="@dimen/_16sdp"
             android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/sub_item_bg"
+            android:padding="@dimen/_16sdp"
             android:text="B) Central Peripheral Unit"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp"
-            android:textStyle="normal"
-            android:background="@drawable/sub_item_bg"/>
+            android:textStyle="normal" />
 
         <TextView
+            android:id="@+id/option3Cont"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_16sdp"
             android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginEnd="@dimen/_16sdp"
             android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/sub_item_bg"
+            android:padding="@dimen/_16sdp"
             android:text="C) Computer Personal Unit"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp"
-            android:textStyle="normal"
-            android:background="@drawable/sub_item_bg"/>
+            android:textStyle="normal" />
 
         <TextView
+            android:id="@+id/option4Cont"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/_16sdp"
             android:layout_marginStart="@dimen/_16sdp"
-            android:layout_marginEnd="@dimen/_16sdp"
             android:layout_marginTop="@dimen/_16sdp"
-            android:layout_marginBottom="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/sub_item_bg"
+            android:padding="@dimen/_16sdp"
             android:text="D) Central Print Unit"
             android:textColor="@color/black"
             android:textSize="@dimen/_20sdp"
-            android:textStyle="normal"
-            android:background="@drawable/sub_item_bg"/>
+            android:textStyle="normal" />
 
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_16sdp"
+            android:background="@drawable/item_bg"
+            android:text="Próxima"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp" />
     </LinearLayout>
 
 </ScrollView>
